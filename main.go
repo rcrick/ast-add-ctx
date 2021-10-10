@@ -3,10 +3,11 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"go/token"
+
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
 	"github.com/dave/dst/dstutil"
-	"go/token"
 )
 
 func main() {
